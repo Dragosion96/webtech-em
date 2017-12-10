@@ -1,0 +1,31 @@
+{
+  "name": "Project-Management of favourite songs with Spotify",
+  "version": "1.0.0",
+  "description": "prof of concept for a SPA and  nodejs RESTful api ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dragosion96/webtech-em.git"
+  },
+  "keywords": [
+    "RESTful",
+    "api",
+    "nodejs",
+    "song",
+    "catalog"
+  ],
+  "author": "Dragosion96",
+  
+  },
+  "homepage": "https://github.com/Dragosion96/Project",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mysql2": "^1.4.2",
+    "nodeadmin": "^0.1.2",
+    "sequelize": "^4.22.5"
+  }
+}
