@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <form method="POST" action="/send">
+            Name: <br/>
+            <input type="text" name="Song"/>
+            <input type="submit" value="Submit"/>
+        </form>
+        <br/>
+        <a href="/categories">Testare metoda GET /categories</a>
+        
+        <br/>
+        <a href="/categories/1">Testare metoda GET /categories/1</a>
+        
+        <br/>
+        <br/>
+        <br/>
+        Testare metoda POST /categories
+        <form method="POST" action="/categories">
+            Nume: <br/>
+            <input type="text" name="Song"/> <br/>
+            Descriere: <br/>
+            <input type="text" name="Song name"/> <br/>
+            <input type="submit" value="Submit"/>
+        </form>
+    </body>
+</html>
